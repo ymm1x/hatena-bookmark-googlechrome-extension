@@ -1041,7 +1041,7 @@ dd#all-tags {
 }
 
 .comment-list li a.username {
-  padding: 0px 10px 0px 3px;
+  padding: 0px 5px 0px 3px;
   color: #2D6BC4;
   text-decoration: none;
 }
@@ -1052,16 +1052,22 @@ dd#all-tags {
 
 .comment-list li .tags,
 .comment-list li .tags a {
-  color: #aaa;
   text-decoration: none;
+  font-size: 97%;
+  color: #999;
+}
+.comment-list li .tags a:hover {
+  text-decoration: underline;
+  color: #999;
 }
 
 .comment-list li .tags {
-  padding: 0 5px 0 0;
+  padding: 0 0 0 0;
 }
 
 .comment-list li .comment {
   color: #333;
+  padding-left: 5px;
 }
 
 .comment-list li .timestamp {
